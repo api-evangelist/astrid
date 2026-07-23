@@ -1,7 +1,24 @@
 aid: astrid
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/astrid.png
 name: Astrid *
-description: 'Astrid * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Astrid was a popular cross-platform social to-do list and task-management app (Todoroo, Inc.),
+  known for its Android and web productivity service and a lightweight task-sync API. It was a GV (Google
+  Ventures) portfolio company in the consumer sector. Yahoo acquired the Astrid team in May 2013 and
+  discontinued the service later that year; the astrid.com domain now resolves to Yahoo and the original
+  developer surface (apidoc / api_keys) is dead. The Android client was open-sourced (todoroo/astrid) and
+  later revived by the community as tasks.org (tasks/tasks). No live first-party API, developer portal, or
+  documentation exists to enrich. This profile is retained as a historical/defunct portfolio lead.'
 url: https://raw.githubusercontent.com/api-evangelist/astrid/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,15 +26,27 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: 'Acquired by Yahoo May 2013 and discontinued; no live API or developer surface as of enrichment probe 2026-07-18.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Productivity
+- Task Management
+- To-Do List
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
