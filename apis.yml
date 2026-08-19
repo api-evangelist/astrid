@@ -28,7 +28,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-detail: 'Acquired by Yahoo May 2013 and discontinued; no live API or developer surface as of enrichment probe 2026-07-18.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
